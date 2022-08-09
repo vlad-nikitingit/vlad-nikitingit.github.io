@@ -4,41 +4,90 @@
   <link rel="stylesheet" media="all" href="css\style.css"> 
   <head>
     <title>Vlad Nikitin Resume</title>
-    </head>
+  </head>
   <body>
-<!--Аватар, ФИО, желаемая должность-->
-<header>
-    <img class="avatar" src="media\avatar.jpg" alt="avatar image">    
-  <div class="common">
-    <div class="main">
-      <h1>Владислав Никитин</h1>
-      <h3>Junior QC/QA Engineer</h3>
+    <main>
+      <!--Аватар, ФИО, желаемая должность-->
+      <section class="common">
+        <img class="avatar" src="media\avatar.jpg" alt="avatar image">    
+        <div class="name">
+          <h1>Владислав Никитин</h1>
+          <h3>Junior QC/QA Engineer</h3>
+        </div>
+        <!--Контактная информация-->
+        <div class="icons">
+          <a href="mailto:darkysign200@gmail.com" target="_blank"><img class="contacts" src="media\gm_logo.png" alt="gmail_logo"></a>
+          <a href="https://wa.me/89189578400" target="_blank"><img class="contacts" src="media\wh_logo.png" alt="whatsapp_logo"></a>
+          <a href="https://tlgg.ru/@darkysign" target="_blank"><img class="contacts" src="media\tg_logo.png" alt="telegram_logo"></a>
+          <a href="https://vk.com/go_in_hell" target="_blank"><img class="contacts" src="media\vk_logo.png" alt="vk_logo"></a>
+          <a href="https://github.com/vlad-nikitingit" target="_blank"><img class="contacts" src="media\gh_logo.png" alt="github_logo"></a>
+        </div>
+      </section>
+      <!--Навыки-->
+      <section class="skills">
+        <article class="hs">
+          <h2>HARD SKILLS</h2>
+          <ul>
+            <li><strong>Теория тестирования</strong> (SDLC, принципы, методы и виды тестирования)</li>
+            <li><strong>Техники тест-дизайна</strong> (Граничные значения, классы эквивалентности, таблица принятия решений)</li>
+            <li><strong>DevTools</strong> (Могу распознать на чьей стороне баг)</li>
+            <li><strong>API</strong> (Postman, SoapUI; умею работать с основными CRUD-запросами, знаю отличия между REST и XML, пробовал работать со сниппетами)</li>
+            <li><strong>Баг-трекинговые системы</strong> (Jira, YouTrack)</li>
+            <li><strong>GIT</strong> (push, pull, commit, branch)</li>
+            <li><strong>Основы HTML/CSS</strong></li>
+          </ul>
+      </article>
+      <article class="ss">
+        <h2>SOFT SKILLS</h2>
+          <ul>
+          <li>Английский язык C1 (<a href="https://www.efset.org/cert/EemBqw" target="_blank">EFSET Certificate</a>)</li>
+          <li>Адекватно описываю баги</li>
+          <li>Правильно составляю вопросы</li>
+          <li>Умею работать в команде, всегда стараюсь прийти к компромиссу и избежать конфликтов</li>
+          <li>Стараюсь постоянно обучаться чему-то новому</li>
+        </ul>
+      </article>
+      
+    </section>
+    </main>
+    <!-- Образование -->
+    <section class="edu_wrapper">
+      <article class="edu_text">
+        <h2>Образование</h2>
+          <ul>
+            <li><strong>Курсы:</strong> Codecademy, Artsyom Rusov "Тестировщик с нуля"</li>
+            <li>СевГУ, Институт общественных наук и международных отношений, факультет зарубежной филологии, 2015-2019</li>
+          </ul>
+        </article>
+    </section>
+    <!-- Опыт -->
+    <div class="exp_wrapper">
+      <section class="exp_text">
+        <h2>Опыт работы</h2>
+          <ul>
+            <li>Преподаватель английского языка, руководитель группы преподавателей в <a href="https://zack-the-teacher.com">Zack the Teacher School</a> (налаживал коммуникации между сотрудниками, вел отчетность в Google Sheets), 2020-2022</li>
+            <li>Переводчик, редактор бюро <a href="https://planserv.ru">"Planeta Service"</a> (проверка качества перевода и верстки документов в Adobe InDesign), 2019-2020</li>
+          </ul>
+      </section>
     </div>
-    <div class="logos">
-      <a href="mailto:darkysign200@gmail.com"><img class="contacts" src="media\gm_logo.png" alt="gmail_logo"></a>
-      <a href="https://wa.me/89189578400"><img class="contacts" src="media\wh_logo.png" alt="whatsapp_logo"></a>
-      <a href="https://tlgg.ru/@darkysign"><img class="contacts" src="media\tg_logo.png" alt="telegram_logo"></a>
-      <a href="https://vk.com/go_in_hell"><img class="contacts" src="media\vk_logo.png" alt="vk_logo"></a>
-      <a href="https://github.com/vlad-nikitingit"><img class="contacts" src="media\gh_logo.png" alt="github_logo"></a>
+    <!-- О себе -->
+    <div class="aboutme">
+      <section class="aboutme_text">
+        <h2>О себе</h2>
+          <p>Мне всегда была интересна IT-сфера.</p>
+      </section>
     </div>
-  </div>
-</header>
-<!--Контактная информация-->
-<!--Информация о навыках-->
-  <h2>Hard Skills</h2>
-  <ul>
-    <li>Теория тестирования (SDLC, принципы, методы и виды тестирования)</li>
-    <li>Техники тест-дизайна (Граничные значения, классы эквивалентности, таблица принятия решений)</li>
-    <li>DevTools (Могу распознать на чьей стороне баг)</li>
-    <li>API (Postman, SoapUI; умею работать с основными CRUD-запросами, знаю отличия между REST и XML, пробовал работать со сниппетами)</li>
-    <li>Баг-трекинговые системы (Jira, YouTrack)</li>
-    <li>GIT (push, pull, commit, branch)</li>
-    <li>Основы HTML/CSS</li>
-  </ul>
-  <br>
-  <h2>Soft skills</h2>
-  <ul>
-    <li>Английский язык C1</li>
-  </ul>
-</body>
+    <!-- Литература -->
+    <div class="lit_wrapper">
+      <section class="lit_text">
+        <h2>Литература</h2>
+          <ul>
+            <li>“A Practitioner's Guide to Software Test Design”, Lee Copeland</li>
+            <li>"Тестирование.com", Роман Савин</li>
+            <li>Статьи Ольги Назиной (<a href="https://okiseleva.blogspot.com">Блог</a>)</li>
+            <li>"Software Testing - Base Course", Святослав Куликов</li>
+          </ul>
+      </section>
+    </div>
+  </body>
 </html>
